@@ -1,0 +1,120 @@
+﻿bit.ly/mauro-doc
+
+
+2020-12-16: Git practices[a]
+Today
+1. 00’-05’: (MF, ML) Intro.
+2. 05’-25’: (JH, JK, ML answer questions) Read and maybe comment on this draft. 
+3. 25’-45’: ( JK moderates) Round of voices, 2’ each about Git.
+4. 45’-55’: ( MF moderates) Round of voices, 1’ each about practices in general.
+5. 55’-59’: (ML, MF) Summary and what’s next.
+
+
+Git
+These practices:
+* are aspirational[b] -- you are expected to follow them or explain why not. 
+* document heuristics -- specific details may never cover all scenarios.[c]
+* apply to shared commits -- not to unshared commits.
+tl;dr
+1. Changes in each shared commit should be closely related.
+2. Shared commits should not be changed.
+
+
+1. Changes you share should be closely related
+A commit should contain related changes only. For example, fixing two different bugs should produce two separate commits. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong. You can avoid sharing unwanted changes via .gitignore. If you can’t succinctly describe what the commit is doing in a couple of words, then it is likely too big. 
+See also:
+* The right size of a PR: https://github.com/2DegreesInvesting/practices/discussions/3
+* .gitignore templates: https://github.com/github/gitignore
+TODO: Provide resources to learn how to clean up the history beforeI share it .[d]
+
+
+2. Commit often
+Committing often keeps your commits small and, again, helps you commit only related changes. Moreover, it allows you to share your code more frequently with others. That way it’s easier for everyone to integrate changes regularly and avoid having merge conflicts. Having few large commits and sharing them rarely, in contrast, makes it hard to solve conflicts.
+
+
+3. The work you share should be complete
+You should only commit code when it’s completed. This doesn’t mean you have to complete a whole, large feature before committing. Quite the contrary: split the feature’s implementation into logical chunks and remember to commit early and often. But don’t commit just to have something in the repository before leaving the office at the end of the day. If you’re tempted to commit just because you need a clean working copy (to check out a branch, pull in changes, etc.) consider using Git’s “Stash” feature instead.
+TODO Clare: What do we mean by  “complete”.
+
+
+4. Test before you commit
+Testing your code is important, particularly when sharing it with others. Automated tests, included with the code, are the best way to prove the effects of the changes you made. If automated tests are not included, explain how else you ensured the code behaves as you expect, and how someone else can reproduce your results. When tests are not included with the code[e]
+
+
+5. Write Good Commit Messages
+The message title should start with a line, 50 characters or less, summarizing your changes. Use the imperative, present tense (“change”, not “changed” or “changes”). The message body is optional. Separate it from the title with a blank line. Explain the motivation for the change.
+See also: https://r-pkgs.org/git.html#commit-best-practices.
+TODO: Show examples.
+
+
+6. Use Branches
+Branching is one of Git’s most powerful features. Branches are the perfect tool to help you avoid mixing up different lines of development. You should use branches extensively in your development workflows: for new features, bug fixes, ideas…
+
+
+7. Agree on a Workflow
+Git lets you pick from a lot of different workflows: long-running branches, topic branches, merge or rebase, git-flow… Which one you choose depends on a couple of factors: your project, your overall development and deployment workflows and (maybe most importantly) on your and your teammates’ personal preferences. However you choose to work, just make sure to agree on a common workflow that everyone follows.
+See also: https://www.atlassian.com/git/tutorials/comparing-workflows
+TODO:
+* Summarize the main workflows.
+* Explain the overlap with the theme GitHub theme, but also its independence.
+* Discuss “CJ: Don’t ever commit to master/ main, even locally”.
+
+
+10. Use Tools to Be More Productive
+In the last couple of years, the ecosystem around Git has become incredibly powerful. Choose your tools carefully and let them help you work more easily and productively with Git. 
+TODO: Share links to tools:
+* CLI git
+* CLI gh
+* RStudio git pane
+* GitKraken
+* GitHub Client
+
+
+References
+* https://www.git-tower.com/blog/version-control-best-practices/
+How
+* https://github.com/2DegreesInvesting/coding-helpdesk#coding-helpdesk
+https://github.com/git-guides/
+* https://coderefinery.github.io/git-intro/
+   * https://bit.ly/book-git-in-practice (Part 4: Git best practices).
+   * https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
+Notes about Git
+   * Jackson: Always include files like LICENSE, README.md, and consider .gitignore and CONTRIBUTING.md.
+   * Taylor: Develop a consensus for types of changes, e.g. “amend” (something I thought I had already done).[f]
+
+
+
+
+
+
+Notes about documenting practices in general
+   * Catarina: Add a theme about “documentation”.
+   * CJ: Do we need a theme about  the overlap between coding and project-management? How to know what is useful to work on? Can we commit any pet project/change we want, or should there be some clear imperative and agreed upon goal for changes that we make?
+   * Monika: Revisit the question: How would you use this document?
+
+
+
+
+[a]@jackson@2degrees-investing.org and @jacob@2degrees-investing.org, I incorporated most comments and flagged TODOs. Feel free to capture here your take-aways of today's meeting. 
+
+
+I'll follow up on some conversations and hope to start a PR to practices/git.md soon.
+[b]@frederique@2degrees-investing.org , this is the most succint way I could come up with to communicate that not all practices may be followed at all times.  What people actually do results from a trade-off between multiple tensions.
+
+
+Maybe we need a more explicit explanation. What do you think?
+
+
+cc' @jackson@2degrees-investing.org 
+@jacob@2degrees-investing.org
+_Assigned to Frederique Hage_
+[c]@jackson@2degrees-investing.org @cj@2degrees-investing.org 
+This line addresses one of your comments. You may want to review it.
+_Assigned to Jackson Hoffart_
+[d]@jacob@2degrees-investing.org , I think should be our next ds-incubator. It follows nicely form the series we finished -- as an example use case.
+What do you think?
+_Assigned to Jacob Kastl_
+[e]@clare@2degrees-investing.org , @monika@2degrees-investing.org, @taylor@2degrees-investing.org 
+please review. I tried to incorporate your comments.
+_Assigned to Clare Murray_
+[f]somewhere I wrote some notes about conventions for the initial comment of a PR (e.g. start with "Depends on #123" or "Closes #123").
