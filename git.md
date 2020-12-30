@@ -10,8 +10,8 @@ why;
 
 ## tl;dr
 
-* Shared commits should not be changed.  * Changes in each shared commit
-should be closely related.
+* Shared commits should not be changed.
+* Changes in each shared commit should be closely related.
 
 ## 1. Preserve shared history
 
