@@ -16,12 +16,12 @@ should be closely related.
 ## 1. Preserve shared history
 
 Shared commits should never change. Some Git commands preserve the history, but
-others don't. For example, git commit --amend and git rebase --interactive
+others don't. For example, `git commit --amend` and `git rebase --interactive`
 alter the git history; they help to overwrite  a messy commit history with
 a cleaner one; you should use them only before sharing your work. To cleanup
-shared history use instead git revert.  If you try to push altered history by
-accident, Git will stop you; to benefit from this protection  never --force
-push to shared repositories.
+shared history use instead `git revert`.  If you try to push altered history by
+accident, Git will stop you; to benefit from this protection  avoid `--force`
+(or `-f`) when pushing to shared repositories.
 
 ## 2. Keep commits focused
 
@@ -51,8 +51,9 @@ Each commit and feature should do what it promises, completely; and reverting
 it should undo what that commit or feature meant to do, also completely. If
 the goal of one commit requires changes in two files, that one commit should
 include changes to both files. Similarly, if the goal of a feature requires
-two kinds of changes, that feature should likely include two commits.  TODO:
-Undoing things with Git
+two kinds of changes, that feature should likely include two commits.
+
+ TODO: Undoing things with Git
 
 ## 5. Explain how to test the effect of the changes you made
 
@@ -127,7 +128,7 @@ TODO: Share links to tools:
 
 * Jackson: Always include files like LICENSE, README.md, and consider
 .gitignore and CONTRIBUTING.md.  
-* Taylor: Develop a consensus for types of
-changes, e.g. "amend" (something I thought I had already done).  
+* Taylor: Develop a consensus for types of changes, e.g. "amend" (something
+I thought I had already done).
 * CJ: Don't ever commit to master/ main, even locally.
 
