@@ -1,9 +1,9 @@
 These practices:
 
-* are aspirational but when they can’t be followed it’s nice to explain
-* are aspirational but when they can’t be followed it’s nice to explain
-* are aspirational but when they can’t be followed it’s nice to explain
-* are aspirational but when they can’t be followed it’s nice to explain
+* are aspirational but when they can't be followed it's nice to explain
+* are aspirational but when they can't be followed it's nice to explain
+* are aspirational but when they can't be followed it's nice to explain
+* are aspirational but when they can't be followed it's nice to explain
 why;
 * document heuristics, as detailed instructions may never cover all scenarios;
 * apply to shared commits (maybe after cleaning commits locally).
@@ -16,7 +16,7 @@ should be closely related.
 ## 1. Preserve shared history
 
 Shared commits should never change. Some Git commands preserve the history, but
-others don’t. For example, git commit --amend and git rebase --interactive
+others don't. For example, git commit --amend and git rebase --interactive
 alter the git history; they help to overwrite  a messy commit history with
 a cleaner one; you should use them only before sharing your work. To cleanup
 shared history use instead git revert.  If you try to push altered history by
@@ -29,7 +29,7 @@ A commit should focus on related changes only. For example, fixing two
 different bugs should produce two separate commits. Small commits make it
 easier for other developers to understand the changes and roll them back if
 something went wrong. You can avoid sharing unwanted changes via .gitignore. If
-you can’t succinctly describe what the commit is doing in a couple of words,
+you can't succinctly describe what the commit is doing in a couple of words,
 then it is likely too big.
 
 See also:
@@ -77,7 +77,7 @@ See also:
 
 ## 7. Agree on a workflow
 
-Choose a workflow based on your team’s needs and preferences. However you
+Choose a workflow based on your team's needs and preferences. However you
 choose to work, just make sure to agree on a common workflow that everyone
 follows:
 
@@ -129,5 +129,5 @@ TODO: Share links to tools:
 .gitignore and CONTRIBUTING.md.  
 * Taylor: Develop a consensus for types of
 changes, e.g. “amend” (something I thought I had already done).  
-* CJ: Don’t ever commit to master/ main, even locally.
+* CJ: Don't ever commit to master/ main, even locally.
 
