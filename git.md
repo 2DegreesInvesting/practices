@@ -65,10 +65,10 @@ code behaves as you expect, and how someone else may reproduce your results.
 
 Like an email, commit messages have a subject and an optional body. The subject
 should start with a line summarizing your changes (aim for 50 characters or
-less). Use the imperative, present tense -- for example, “Fix typo”,
-not “Fixed typo” or “Fixes typo”. The message body, if present,
+less). Use the imperative, present tense -- for example, “Fix typo",
+not “Fixed typo" or “Fixes typo". The message body, if present,
 should follow a blank line; wrap around 70 characters; and explain the
-motivation for the change (“why”, not “what” or “how”).
+motivation for the change (“why", not “what" or “how").
 
 See also:
 
@@ -84,15 +84,15 @@ follows:
 GitHub workflow (a.k.a Git feature branch workflow:
 
 * Uses a central repository. 
-* Uses a single long-lived branch: “main”; it never contains broken code.
+* Uses a single long-lived branch: “main"; it never contains broken code.
 * Developers work on "feature branches, share them via pull requests, and
 peers review the changes before they become a part of the main codebase.
 * A new release is created by tagging a particular commit on the main branch.
 
 Gitflow workflow:
 
-* Like the GitHub workflow but uses two long-lived branches: “main”
-and “develop”. The main branch stores the official release history,
+* Like the GitHub workflow but uses two long-lived branches: “main"
+and “develop". The main branch stores the official release history,
 and the develop branch serves as an integration branch for features.
 
 See also: <https://www.atlassian.com/git/tutorials/comparing-workflows>.
@@ -128,6 +128,6 @@ TODO: Share links to tools:
 * Jackson: Always include files like LICENSE, README.md, and consider
 .gitignore and CONTRIBUTING.md.  
 * Taylor: Develop a consensus for types of
-changes, e.g. “amend” (something I thought I had already done).  
+changes, e.g. “amend" (something I thought I had already done).  
 * CJ: Don't ever commit to master/ main, even locally.
 
