@@ -1,8 +1,9 @@
 These practices:
 
 * are aspirational but when they can’t be followed it’s nice to explain
-why; * document heuristics, as detailed instructions may never cover all
-scenarios; * apply to shared commits (maybe after cleaning commits locally).
+why;
+* document heuristics, as detailed instructions may never cover all scenarios;
+* apply to shared commits (maybe after cleaning commits locally).
 
 ## tl;dr
 
@@ -30,9 +31,8 @@ then it is likely too big.
 
 See also:
 
-* The right size of a PR:
-https://github.com/2DegreesInvesting/practices/discussions/3 * .gitignore
-templates: https://github.com/github/gitignore
+* [The right size of a PR](https://github.com/2DegreesInvesting/practices/discussions/3).
+* [.gitignore templates](https://github.com/github/gitignore).
 
 TODO: Undoing things with Git
 
@@ -69,8 +69,8 @@ motivation for the change (“why”, not “what” or “how”).
 
 See also:
 
-* Example: https://github.com/2DegreesInvesting/resources/issues/74 *
-https://r-pkgs.org/git.html#commit-best-practices.
+* [Example of a commit message](https://github.com/2DegreesInvesting/resources/issues/74).
+* <https://r-pkgs.org/git.html#commit-best-practices.>
 
 ## 7. Agree on a workflow
 
@@ -80,11 +80,11 @@ follows:
 
 GitHub workflow (a.k.a Git feature branch workflow:
 
-* Uses a central repository.  * Uses a single long-lived branch: “main”;
-it never contains broken code.  * Developers work on "feature branches,
-share them via pull requests, and peers review the changes before they
-become a part of the main codebase.  * A new release is created by tagging
-a particular commit on the main branch.
+* Uses a central repository. 
+* Uses a single long-lived branch: “main”; it never contains broken code.
+* Developers work on "feature branches, share them via pull requests, and
+peers review the changes before they become a part of the main codebase.
+* A new release is created by tagging a particular commit on the main branch.
 
 Gitflow workflow:
 
@@ -101,25 +101,30 @@ and with fewer errors.
 
 TODO: Share links to tools:
 
-* CLI git * CLI gh * RStudio git pane * GitKraken * GitHub Client
+* CLI git 
+* CLI gh 
+* RStudio git pane 
+* GitKraken 
+* GitHub Client
 
 ## References
 
-<https://www.git-tower.com/blog/version-control-best-practices/>
+[Version control best practices](https://www.git-tower.com/blog/version-control-best-practices/)
 
 ## How
 
-Git practices by example:
-
-* https://github.com/2DegreesInvesting/coding-helpdesk#coding-helpdesk *
-https://github.com/git-guides/ * https://coderefinery.github.io/git-intro/
-* https://bit.ly/book-git-in-practice (Part 4: Git best practices).  *
-https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1
+* [Git practices by example](TODO)
+* <https://github.com/2DegreesInvesting/coding-helpdesk#coding-helpdesk>.
+* <https://github.com/git-guides/>.
+* <https://coderefinery.github.io/git-intro/>.
+* <https://bit.ly/book-git-in-practice (Part 4: Git best practices)>.  
+* <https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1>.
 
 ## Discuss
 
 * Jackson: Always include files like LICENSE, README.md, and consider
-.gitignore and CONTRIBUTING.md.  * Taylor: Develop a consensus for types of
-changes, e.g. “amend” (something I thought I had already done).  * CJ:
-Don’t ever commit to master/ main, even locally.
+.gitignore and CONTRIBUTING.md.  
+* Taylor: Develop a consensus for types of
+changes, e.g. “amend” (something I thought I had already done).  
+* CJ: Don’t ever commit to master/ main, even locally.
 
