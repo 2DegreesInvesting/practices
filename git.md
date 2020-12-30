@@ -1,6 +1,9 @@
 These practices:
 
 * are aspirational but when they can’t be followed it’s nice to explain
+* are aspirational but when they can’t be followed it’s nice to explain
+* are aspirational but when they can’t be followed it’s nice to explain
+* are aspirational but when they can’t be followed it’s nice to explain
 why;
 * document heuristics, as detailed instructions may never cover all scenarios;
 * apply to shared commits (maybe after cleaning commits locally).
