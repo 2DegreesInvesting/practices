@@ -120,8 +120,6 @@ See also:
 
 ## Discuss
 
-* Jackson: Always include files like LICENSE, README.md, and consider
-.gitignore and CONTRIBUTING.md.  
 * Taylor: Develop a consensus for types of changes, e.g. "amend" (something
 I thought I had already done).
 
