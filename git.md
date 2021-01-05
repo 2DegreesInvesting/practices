@@ -97,13 +97,12 @@ See also: <https://www.atlassian.com/git/tutorials/comparing-workflows>.
 Choose the tools that help you work more comfortably, more productively,
 and with fewer errors.
 
-TODO: Share links to tools:
+See also:
 
-* CLI git 
-* CLI gh 
-* RStudio git pane 
-* GitKraken 
-* GitHub Client
+* [Install a Git client](https://happygitwithr.com/git-client.html)
+* [oh-my-zsh: Unleash your terminal like never before](https://ohmyz.sh/).
+* [gh: Take GitHub to the command line](https://cli.github.com/).
+* [Git from RStudio](https://rstudio.com/resources/webinars/managing-part-2-github-and-rstudio/).
 
 ## References
 
