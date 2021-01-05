@@ -32,8 +32,8 @@ See also:
 
 * [The right size of a PR](https://github.com/2DegreesInvesting/practices/discussions/3).
 * [.gitignore templates](https://github.com/github/gitignore).
-
-TODO: Undoing things with Git
+* Undoing things with Git ([video](https://youtu.be/dZOfEF19yDk),
+[lesson](https://coderefinery.github.io/git-intro/05-undoing)).
 
 ## 3. Commit frequently
 
@@ -48,8 +48,6 @@ it should undo what that commit or feature meant to do, also completely. If
 the goal of one commit requires changes in two files, that one commit should
 include changes to both files. Similarly, if the goal of a feature requires
 two kinds of changes, that feature should likely include two commits.
-
- TODO: Undoing things with Git
 
 ## 5. Explain how to test the effect of the changes you made
 
