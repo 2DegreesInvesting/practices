@@ -80,8 +80,9 @@ GitHub workflow (a.k.a Git feature branch workflow:
 
 * Uses a central repository. 
 * Uses a single long-lived branch: "main"; it never contains broken code.
-* Developers work on "feature branches, share them via pull requests, and
-peers review the changes before they become a part of the main codebase.
+* Developers work on "feature" branches (never on the "main" branch), share
+them via pull requests, and peers review the changes before they become a
+part of the main codebase.
 * A new release is created by tagging a particular commit on the main branch.
 
 Gitflow workflow:
@@ -123,5 +124,4 @@ See also:
 .gitignore and CONTRIBUTING.md.  
 * Taylor: Develop a consensus for types of changes, e.g. "amend" (something
 I thought I had already done).
-* CJ: Don't ever commit to master/ main, even locally.
 
