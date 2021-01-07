@@ -91,6 +91,11 @@ Gitflow workflow:
 and "develop". The main branch stores the official release history,
 and the develop branch serves as an integration branch for features.
 
+A team may agree on custom convensions beyond the "vanilla" workflows listed
+above.  For example, you may agree to prefix a commit-title with "WIP",
+"FIXME", "Amend: " or to whatever to communicate with your team succinctly
+via a vocabulary you all share.
+
 See also: <https://www.atlassian.com/git/tutorials/comparing-workflows>.
 
 ## 8. Use tools to be more productive
