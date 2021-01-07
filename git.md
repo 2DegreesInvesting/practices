@@ -68,7 +68,7 @@ motivation for the change ("why", not "what" or "how").
 See also:
 
 * [Example of a commit message](https://github.com/2DegreesInvesting/resources/issues/74).
-* <https://r-pkgs.org/git.html#commit-best-practices.>
+* [Commit best practices](https://r-pkgs.org/git.html#commit-best-practices).
 
 ## 7. Agree on a workflow
 
@@ -76,7 +76,7 @@ Choose a workflow based on your team's needs and preferences. However you
 choose to work, just make sure to agree on a common workflow that everyone
 follows:
 
-GitHub workflow (a.k.a Git feature branch workflow:
+GitHub workflow (a.k.a Git feature branch workflow):
 
 * Uses a central repository. 
 * Uses a single long-lived branch: "main"; it never contains broken code.
@@ -96,7 +96,10 @@ above.  For example, you may agree to prefix a commit-title with "WIP",
 "FIXME", "Amend: " or to whatever to communicate with your team succinctly
 via a vocabulary you all share.
 
-See also: <https://www.atlassian.com/git/tutorials/comparing-workflows>.
+See also: 
+
+* [Comparing workflows](https://www.atlassian.com/git/tutorials/comparing-workflows).
+* [Example: Contributing workflow](https://github.com/github/gitignore#contributing-workflow).
 
 ## 8. Use tools to be more productive
 
@@ -117,11 +120,11 @@ See also:
 ## How
 
 * [Git practices by example](TODO)
-* <https://github.com/2DegreesInvesting/coding-helpdesk#coding-helpdesk>.
-* <https://github.com/git-guides/>.
-* <https://coderefinery.github.io/git-intro/>.
-* <https://bit.ly/book-git-in-practice (Part 4: Git best practices)>.  
-* <https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1>.
+* [Coding helpdesk](https://github.com/2DegreesInvesting/coding-helpdesk#coding-helpdesk).
+* [GitHub's Git guides](https://github.com/git-guides/).
+* [Coderefinery's Git intro](https://coderefinery.github.io/git-intro/).
+* [Git best practices](https://bit.ly/book-git-in-practice).  
+* [Visualization of useful Git commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1).
 
 ## Discuss
 
