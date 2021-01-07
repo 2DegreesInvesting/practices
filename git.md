@@ -76,7 +76,11 @@ Choose a workflow based on your team's needs and preferences. However you
 choose to work, just make sure to agree on a common workflow that everyone
 follows:
 
-GitHub workflow (a.k.a Git feature branch workflow):
+GitHub workflow:
+
+This workflow is 2DII's default. If a project uses a different
+workflow, document prominently (e.g. in README) what that workflow is
+([example](https://github.com/github/gitignore#contributing-workflow)).
 
 * Uses a central repository. 
 * Uses a single long-lived branch: "main"; it never contains broken code.
@@ -99,7 +103,6 @@ via a vocabulary you all share.
 See also: 
 
 * [Comparing workflows](https://www.atlassian.com/git/tutorials/comparing-workflows).
-* [Example: Contributing workflow](https://github.com/github/gitignore#contributing-workflow).
 
 ## 8. Use tools to be more productive
 
