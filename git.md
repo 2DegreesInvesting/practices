@@ -19,6 +19,14 @@ shared history use instead `git revert`.  If you try to push altered history by
 accident, Git will stop you; to benefit from this protection  avoid `--force`
 (or `-f`) when pushing to shared repositories.
 
+See also:
+
+* [Cleaning _unshared_ history: Squashing all commits in a branch](https://youtu.be/08dhy3Zoob4).
+* [Cleaning _unshared_ history with `git rebase --interactive`](https://youtu.be/cMI8p1XhMzA).
+* [Cleaning _unshared_ history with `git commit --amend`](https://youtu.be/539pfVfr7OI).
+* [Cleaning shared history with `git revert`](https://youtu.be/A8Ld6iDqc3w).
+* [Git playlist](https://www.youtube.com/playlist?list=PLvgdJdJDL-AOHkwiaMvYhPKVjiD9vzZIo).
+
 ## 2. Keep commits focused
 
 A commit should focus on related changes only. For example, fixing two
