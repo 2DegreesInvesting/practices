@@ -129,8 +129,3 @@ See also:
 * [Git best practices](https://bit.ly/book-git-in-practice).  
 * [Visualization of useful Git commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1).
 
-## Discuss
-
-* Taylor: Develop a consensus for types of changes, e.g. "amend" (something
-I thought I had already done).
-
