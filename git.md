@@ -61,8 +61,9 @@ two kinds of changes, that feature should likely include two commits.
 
 Testing your code is important, particularly when sharing it with
 others. Automated tests are the best but not the only way to test the effects
-of the changes you made. However you did it, explain how you ensured that the
-code behaves as you expect, and how someone else may reproduce your results.
+of the changes you made. When automated tests are excluded, the PR's first
+comment should explain how you ensured that the code behaves as you expect,
+and how someone else may reproduce your results.
 
 ## 6. Structure each commit message like an email
 
