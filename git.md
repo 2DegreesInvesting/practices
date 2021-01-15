@@ -168,6 +168,8 @@ practices](https://www.git-tower.com/blog/version-control-best-practices/)
 -   [Visualization of useful Git
     commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1).
 
+------------------------------------------------------------------------
+
 [1] A *shared* commit is a commit that someone other than you might
 access, for example, because you pushed it to a remote repository that
 someone else has permission privileges to access.
