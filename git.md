@@ -6,8 +6,12 @@ These practices:
 
 ## tl;dr
 
-* Shared commits should not be changed.
+* Shared commits[^shared_commit] should not be changed.
 * Changes in each shared commit should be closely related.
+
+[^shared_commit]: A _shared_ commit is a commit that someone other than you
+might access, for example, because you pushed it to a remote repository that
+someone else has permission privileges to access.
 
 ## 1. Preserve shared history
 
@@ -137,4 +141,5 @@ See also:
 * [Coderefinery's Git intro](https://coderefinery.github.io/git-intro/).
 * [Git best practices](https://bit.ly/book-git-in-practice).  
 * [Visualization of useful Git commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1).
+
 
