@@ -1,9 +1,7 @@
 
 This document describes git practices we agree by consensus. It focuses
 on *what* to do and *why*, and only recommends optional resources about
-*how* to do it.
-
-These practices:
+*how* to do it. These practices:
 
 -   are aspirational but when they can’t be followed it’s nice to
     explain why;
