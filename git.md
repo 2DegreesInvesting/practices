@@ -119,12 +119,14 @@ See also:
 
 ## 8. Use tools to be more productive
 
-Choose the tools that help you work more comfortably, more productively,
-and with fewer errors.
+Rather thank relying on memory or will power, rely on good systems. Good systems
+such as git [clients](https://happygitwithr.com/git-client.html),
+[aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases), and
+[hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) can help you
+work more comfortably, more productively, and with fewer errors.
 
 See also:
 
-* [Install a Git client](https://happygitwithr.com/git-client.html)
 * [oh-my-zsh: Unleash your terminal like never before](https://ohmyz.sh/).
 * [gh: Take GitHub to the command line](https://cli.github.com/).
 * [Git from RStudio](https://rstudio.com/resources/webinars/managing-part-2-github-and-rstudio/).
