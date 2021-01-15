@@ -99,7 +99,7 @@ workflow, document prominently (e.g. in README) what that workflow is
 * Uses a single long-lived branch: "main"; it never contains broken code.
 * Developers work on "feature" branches (never on the "main" branch), share
 them via pull requests, and peers review the changes before they become a
-part of the main codebase.
+part of the central repository.
 * A new release is created by tagging a particular commit on the main branch.
 
 Gitflow workflow:
