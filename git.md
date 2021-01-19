@@ -1,13 +1,8 @@
 
-This document describes git practices we have agreed to by consensus. It
-focuses on *what* to do and *why*, and only recommends optional
-resources about *how* to do it. These practices:
+# Git
 
--   are aspirational but when they can’t be followed it’s nice to
-    explain why;
--   document heuristics, as detailed instructions may never cover all
-    scenarios;
--   apply to shared commits[1] (maybe after cleaning commits locally).
+These practices that apply to shared commits[1] (maybe after cleaning
+commits locally).
 
 ## tl;dr
 

@@ -2,15 +2,11 @@
 output: github_document
 ---
 
-This document describes git practices we have agreed to by consensus. It
-focuses on _what_ to do and _why_, and only recommends optional resources
-about _how_ to do it. These practices:
+# Git
 
-* are aspirational but when they can't be followed it's nice to explain why;
-* document heuristics, as detailed instructions may never cover all scenarios;
-* apply to shared commits^[A _shared_ commit is a commit that someone
-other than you might access, for example, because you pushed it to a remote
-repository that someone else has permission privileges to access.] (maybe
+These practices that apply to shared commits^[A _shared_ commit is a commit that
+someone other than you might access, for example, because you pushed it to a
+remote repository that someone else has permission privileges to access.] (maybe
 after cleaning commits locally).
 
 ## tl;dr
