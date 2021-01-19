@@ -115,7 +115,7 @@ and "develop". The main branch stores the official release history,
 and the develop branch serves as an integration branch for features.
 
 A team may agree on custom conventions beyond the "vanilla" workflows listed
-above.  For example, you may agree to prefix a commit-title with "FIXME",
+above. For example, you may agree to prefix a commit-title with "FIXME",
 "Amend: " or to whatever to communicate with your team succinctly via a
 vocabulary you all share.
 
@@ -147,7 +147,7 @@ See also:
 * [Coding helpdesk](https://github.com/2DegreesInvesting/coding-helpdesk#coding-helpdesk).
 * [GitHub's Git guides](https://github.com/git-guides/).
 * [Coderefinery's Git intro](https://coderefinery.github.io/git-intro/).
-* [Git best practices](https://bit.ly/book-git-in-practice).  
+* [Git best practices](https://bit.ly/book-git-in-practice). 
 * [Visualization of useful Git commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1).
 
 ---
