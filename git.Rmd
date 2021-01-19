@@ -21,13 +21,13 @@ should not be changed.
 
 ## 1. Preserve shared history
 
-Shared commits should never change. Some Git commands preserve the history, but
-others don't. For example, `git commit --amend` and `git rebase --interactive`
-alter the git history; they help to overwrite  a messy commit history with
-a cleaner one; you should use them only before sharing your work. To cleanup
-shared history use instead `git revert`.  If you try to push altered history by
-accident, Git will stop you; to benefit from this protection  avoid `--force`
-(or `-f`) when pushing to shared repositories.
+Shared commits should never change. Some Git commands preserve the history,
+but others don't. For example, don't use `git commit --amend` or any other
+Git command that would change the sha of a commits you already shared; to
+cleanup shared commits use instead history-preserving commands such as `git
+revert`. If you change shared commits and try to push them, Git will stop you;
+be careful because you can but likely should not bypass this protection with
+`--force` (or `-f`).
 
 See also:
 
