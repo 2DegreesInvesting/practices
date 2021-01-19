@@ -56,9 +56,12 @@ See also:
 Each commit and feature should do what it promises, completely; and
 reverting it should undo what that commit or feature meant to do, also
 completely. If the goal of one commit requires changes in two files,
-that one commit should include changes to both files. Similarly, if the
-goal of a feature requires two kinds of changes, that feature should
-likely include two commits.
+that one commit should include changes to both files. For example, if
+two commits in the same feature branch promise to “Fix all typos”, each
+commit is likely incomplete; they should have been squashed into a
+single commit before sharing them. Similarly, if the goal of a feature
+requires two kinds of changes, that feature should likely include two
+commits.
 
 ## 4. Explain how to test the effect of the changes you made
 
