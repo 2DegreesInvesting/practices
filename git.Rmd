@@ -8,13 +8,15 @@ about _how_ to do it. These practices:
 
 * are aspirational but when they can't be followed it's nice to explain why;
 * document heuristics, as detailed instructions may never cover all scenarios;
-* apply to shared commits (maybe after cleaning commits locally).
+* apply to shared commits^[A _shared_ commit is a commit that someone
+other than you might access, for example, because you pushed it to a remote
+repository that someone else has permission privileges to access.] (maybe
+after cleaning commits locally).
 
 ## tl;dr
 
-* Shared commits^[A _shared_ commit is a commit that someone other than you
-might access, for example, because you pushed it to a remote repository that
-someone else has permission privileges to access.] should not be changed.
+* Shared commits
+should not be changed.
 * Changes in each shared commit should be closely related.
 
 ## 1. Preserve shared history
