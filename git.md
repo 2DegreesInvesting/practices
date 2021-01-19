@@ -1,29 +1,28 @@
 
-This document describes git practices we agree by consensus. It focuses
-on *what* to do and *why*, and only recommends optional resources about
-*how* to do it. These practices:
+This document describes git practices we have agreed to by consensus. It
+focuses on *what* to do and *why*, and only recommends optional
+resources about *how* to do it. These practices:
 
 -   are aspirational but when they can’t be followed it’s nice to
     explain why;
 -   document heuristics, as detailed instructions may never cover all
     scenarios;
--   apply to shared commits (maybe after cleaning commits locally).
+-   apply to shared commits[1] (maybe after cleaning commits locally).
 
 ## tl;dr
 
--   Shared commits[1] should not be changed.
+-   Shared commits should not be changed.
 -   Changes in each shared commit should be closely related.
 
 ## 1. Preserve shared history
 
 Shared commits should never change. Some Git commands preserve the
-history, but others don’t. For example, `git commit --amend` and
-`git rebase --interactive` alter the git history; they help to overwrite
-a messy commit history with a cleaner one; you should use them only
-before sharing your work. To cleanup shared history use instead
-`git revert`. If you try to push altered history by accident, Git will
-stop you; to benefit from this protection avoid `--force` (or `-f`) when
-pushing to shared repositories.
+history, but others don’t. For example, don’t use `git commit --amend`
+or any other Git command that would change the sha of a commits you
+already shared; to cleanup shared commits use instead history-preserving
+commands such as `git revert`. If you change shared commits and try to
+push them, Git will stop you; be careful because you can but likely
+should not bypass this protection with `--force` (or `-f`).
 
 See also:
 
@@ -133,7 +132,7 @@ See also:
 
 ## 8. Use tools to be more productive
 
-Rather thank relying on memory or will power, rely on good systems. Good
+Rather than relying on memory or will power, rely on good systems. Good
 systems such as git
 [clients](https://happygitwithr.com/git-client.html),
 [aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases), and
@@ -162,7 +161,7 @@ practices](https://www.git-tower.com/blog/version-control-best-practices/)
 -   [GitHub’s Git guides](https://github.com/git-guides/).
 -   [Coderefinery’s Git
     intro](https://coderefinery.github.io/git-intro/).
--   [Git best practices](https://bit.ly/book-git-in-practice).  
+-   [Git best practices](https://bit.ly/book-git-in-practice).
 -   [Visualization of useful Git
     commands](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1).
 
