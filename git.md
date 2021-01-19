@@ -39,7 +39,7 @@ different bugs should produce two separate commits. Small commits make
 it easier for other developers to understand the changes and roll them
 back if something went wrong. You can avoid sharing unwanted changes via
 .gitignore. If you can’t succinctly describe what the commit is doing in
-a couple of words, then it is likely too big.
+a few words, then it is likely too big.
 
 See also:
 
