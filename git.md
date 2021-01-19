@@ -39,7 +39,9 @@ different bugs should produce two separate commits. Small commits make
 it easier for other developers to understand the changes and roll them
 back if something went wrong. You can avoid sharing unwanted changes via
 .gitignore. If you can’t succinctly describe what the commit is doing in
-a few words, then it is likely too big.
+a few words, then it is likely too big. Small commits are easier to
+review, and easier to merge because they offer fewer opportunities for
+conflicts.
 
 See also:
 
@@ -49,13 +51,7 @@ See also:
 -   Undoing things with Git ([video](https://youtu.be/dZOfEF19yDk),
     [lesson](https://coderefinery.github.io/git-intro/05-undoing)).
 
-## 3. Commit frequently
-
-Committing frequently keeps your commits small. Small commits are more
-likely to be focused; they are easier to review, and easier to merge
-because they offer fewer opportunities for conflicts.
-
-## 4. The work you share should be complete
+## 3. The work you share should be complete
 
 Each commit and feature should do what it promises, completely; and
 reverting it should undo what that commit or feature meant to do, also
@@ -64,7 +60,7 @@ that one commit should include changes to both files. Similarly, if the
 goal of a feature requires two kinds of changes, that feature should
 likely include two commits.
 
-## 5. Explain how to test the effect of the changes you made
+## 4. Explain how to test the effect of the changes you made
 
 Testing your code is important, particularly when sharing it with
 others. Automated tests are the best but not the only way to test the
@@ -72,7 +68,7 @@ effects of the changes you made. When automated tests are excluded, the
 PR’s first comment should explain how you ensured that the code behaves
 as you expect, and how someone else may reproduce your results.
 
-## 6. Structure each commit message like an email
+## 5. Structure each commit message like an email
 
 Like an email, commit messages have a subject and an optional body. The
 subject should start with a line summarizing your changes (aim for 50
@@ -88,7 +84,7 @@ See also:
 -   [Commit best
     practices](https://r-pkgs.org/git.html#commit-best-practices).
 
-## 7. Agree on a workflow
+## 6. Agree on a workflow
 
 Choose a workflow based on your team’s needs and preferences. However
 you choose to work, just make sure to agree on a common workflow that
@@ -125,7 +121,7 @@ See also:
 -   [Comparing
     workflows](https://www.atlassian.com/git/tutorials/comparing-workflows).
 
-## 8. Use tools to be more productive
+## 7. Use tools to be more productive
 
 Rather than relying on memory or will power, rely on good systems. Good
 systems such as git
