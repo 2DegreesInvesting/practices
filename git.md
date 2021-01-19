@@ -38,10 +38,10 @@ A commit should focus on related changes only. For example, fixing two
 different bugs should produce two separate commits. Small commits make
 it easier for other developers to understand the changes and roll them
 back if something went wrong. You can avoid sharing unwanted changes via
-.gitignore. If you can’t succinctly describe what the commit is doing in
-a few words, then it is likely too big. Small commits are easier to
-review, and easier to merge because they offer fewer opportunities for
-conflicts.
+[.gitignore](https://git-scm.com/docs/gitignore). If you can’t
+succinctly describe what the commit is doing in a few words, then it is
+likely too big. Small commits are easier to review, and easier to merge
+because they offer fewer opportunities for conflicts.
 
 See also:
 
