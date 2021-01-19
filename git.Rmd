@@ -120,10 +120,10 @@ See also:
 ## 7. Use tools to be more productive
 
 Rather than relying on memory or will power, rely on good systems. Good systems
-such as git [clients](https://happygitwithr.com/git-client.html),
-[aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases), and
-[hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) can help you
-work more comfortably, more productively, and with fewer errors.
+such as git [aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases),
+[hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks), and
+[graphical user interfaces](https://happygitwithr.com/git-client.html) can help
+you work more productively, correctly, and comfortably.
 
 See also:
 
