@@ -47,6 +47,8 @@ See also:
 
 -   [The right size of a
     PR](https://github.com/2DegreesInvesting/practices/discussions/3).
+-   [Google engineering
+    guide](https://google.github.io/eng-practices/review/developer/small-cls.html)
 -   [.gitignore templates](https://github.com/github/gitignore).
 -   Undoing things with Git ([video](https://youtu.be/dZOfEF19yDk),
     [lesson](https://coderefinery.github.io/git-intro/05-undoing)).
@@ -115,8 +117,8 @@ Gitflow workflow:
     and the develop branch serves as an integration branch for features.
 
 A team may agree on custom conventions beyond the “vanilla” workflows
-listed above. For example, you may agree to prefix a commit-title with
-“FIXME”, “Amend:” or to whatever to communicate with your team
+listed above. For example, you may agree to prefix a commit subject with
+“FIXME”, “AMEND”, or something else, to communicate with your team
 succinctly via a vocabulary you all share.
 
 See also:

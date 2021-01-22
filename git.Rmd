@@ -46,6 +46,7 @@ conflicts.
 See also:
 
 * [The right size of a PR](https://github.com/2DegreesInvesting/practices/discussions/3).
+* [Google engineering guide](https://google.github.io/eng-practices/review/developer/small-cls.html)
 * [.gitignore templates](https://github.com/github/gitignore).
 * Undoing things with Git ([video](https://youtu.be/dZOfEF19yDk),
 [lesson](https://coderefinery.github.io/git-intro/05-undoing)).
