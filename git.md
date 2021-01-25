@@ -25,7 +25,7 @@ history](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 See also:
 
 -   [Whic git commands rewrite
-    history?](%5BGit%20tools%20-%20rewriting%20history%5D(https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History))
+    history?](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 -   [Cleaning *unshared* history: Squashing all commits in a
     branch](https://youtu.be/08dhy3Zoob4).
 -   [Cleaning *unshared* history with

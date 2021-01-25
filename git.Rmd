@@ -27,7 +27,7 @@ ready to share it with the rest of the world."
 
 See also:
 
-* [Whic git commands rewrite history?]([Git tools - rewriting history](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History))
+* [Whic git commands rewrite history?](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 * [Cleaning _unshared_ history: Squashing all commits in a branch](https://youtu.be/08dhy3Zoob4).
 * [Cleaning _unshared_ history with `git rebase --interactive`](https://youtu.be/cMI8p1XhMzA).
 * [Cleaning _unshared_ history with `git commit --amend`](https://youtu.be/539pfVfr7OI).
