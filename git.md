@@ -9,28 +9,28 @@ commits locally).
 -   Shared commits should not be changed.
 -   Changes in each shared commit should be closely related.
 
-## 1. Preserve shared history
+## 1. Don’t push your work until you’re happy with it
 
-Shared commits should never change. Some Git commands preserve the
-history, but others don’t. For example, don’t use `git commit --amend`
-or any other Git command that would change the sha of a commits you
-already shared; to cleanup shared commits use instead history-preserving
-commands such as `git revert`. If you change shared commits and try to
-push them, Git will stop you; be careful because you can but likely
-should not bypass this protection with `--force` (or `-f`).
+“One of the cardinal rules of Git is that, since so much work is local
+within your clone, you have a great deal of freedom to rewrite your
+history locally. However, once you push your work, it is a different
+story entirely, and you should consider pushed work as final unless you
+have good reason to change it. In short, you should avoid pushing your
+work until you’re happy with it and ready to share it with the rest of
+the world.”
 
-See also:
+– [Git tools - rewriting
+history](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 
--   [Cleaning *unshared* history: Squashing all commits in a
-    branch](https://youtu.be/08dhy3Zoob4).
--   [Cleaning *unshared* history with
-    `git rebase --interactive`](https://youtu.be/cMI8p1XhMzA).
--   [Cleaning *unshared* history with
-    `git commit --amend`](https://youtu.be/539pfVfr7OI).
--   [Cleaning shared history with
-    `git revert`](https://youtu.be/A8Ld6iDqc3w).
--   [Git
-    playlist](https://www.youtube.com/playlist?list=PLvgdJdJDL-AOHkwiaMvYhPKVjiD9vzZIo).
+See also: \* [Whic git commands rewrite
+history?](%5BGit%20tools%20-%20rewriting%20history%5D(https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History))
+\* [Cleaning *unshared* history: Squashing all commits in a
+branch](https://youtu.be/08dhy3Zoob4). \* [Cleaning *unshared* history
+with `git rebase --interactive`](https://youtu.be/cMI8p1XhMzA). \*
+[Cleaning *unshared* history with
+`git commit --amend`](https://youtu.be/539pfVfr7OI). \* [Cleaning shared
+history with `git revert`](https://youtu.be/A8Ld6iDqc3w). \* [Git
+playlist](https://www.youtube.com/playlist?list=PLvgdJdJDL-AOHkwiaMvYhPKVjiD9vzZIo).
 
 ## 2. Keep commits focused
 
@@ -57,13 +57,9 @@ See also:
 
 Each commit and feature should do what it promises, completely; and
 reverting it should undo what that commit or feature meant to do, also
-completely. If the goal of one commit requires changes in two files,
-that one commit should include changes to both files. For example, if
-two commits in the same feature branch promise to “Fix all typos”, each
-commit is likely incomplete; they should have been squashed into a
-single commit before sharing them. Similarly, if the goal of a feature
-requires two kinds of changes, that feature should likely include two
-commits.
+completely. Before you commit changes, consider if other changes you’ve
+made are part of the same conceptual change and combine them into one
+commit rather than committing them separately.
 
 ## 4. Explain how to test the effect of the changes you made
 
